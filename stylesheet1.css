@@ -12,3 +12,11 @@ html, body {
   height: 100%;
   margin: 0px;
 }
+
+#star1 {
+	width: 5px;
+	height: 5px;
+	left: 100px;
+	top:100px;
+	z-index: 3;
+}
