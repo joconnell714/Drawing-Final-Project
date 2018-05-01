@@ -1,0 +1,111 @@
+#container1 {
+	background-image: url("giraffe.jpg");
+	background-size: 100%;
+	position: absolute;
+	width: 300px;
+	height: 75px;
+	top: 50%;
+	left: 50%;
+	margin-left: -150px;
+	margin-top:0px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 75px;
+	font-size: 36px;
+	border-radius: 15px;
+	font-weight: bold;
+	transition: all .2s ease-in-out;
+}
+
+#container2 {
+	background-image: url("water.png");
+	background-size: 100%;
+	position: absolute;
+	width: 300px;
+	height: 75px;
+	top: 50%;
+	left: 50%;
+	margin-left: -350px;
+	margin-top: 125px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 75px;
+	font-size: 36px;
+	border-radius: 15px;
+	font-weight: bold;
+	transition: all .2s ease-in-out;
+}
+
+#container3 {
+	background-image: url("sky.jpeg");
+	background-size: 100%;
+	position: absolute;
+	width: 300px;
+	height: 75px;
+	top: 50%;
+	left: 50%;
+	margin-left: 75px;
+	margin-top: 125px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 75px;
+	font-size: 36px;
+	border-radius: 15px;
+	font-weight: bold;
+	transition: all .2s ease-in-out;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+#container1:hover {
+	transform: scale(1.2);
+}
+
+#container2:hover {
+	transform: scale(1.2);
+}
+
+#container3:hover {
+	transform: scale(1.2);
+}
+
+body {
+	background-image: url("zoo.jpg");
+	background-size: cover;
+}
+
+#text1 {
+	width: 800px;
+	height: 100px;
+	margin: 0 auto;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 100px;
+	font-size: 48px;
+	font-weight: bold;
+}
+
+#text2 {
+	width: 800px;
+	height: 100px;
+	margin: 0 auto;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 100px;
+	font-size: 40px;
+	margin-top: 150px;
+	font-weight: bold;
+}
+
+
+
+
+
