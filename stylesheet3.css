@@ -1,0 +1,105 @@
+body {
+	display: block;
+	align-items: center;
+	justify-content: center;
+	background-image: linear-gradient(to bottom,  rgba(255,168,76,0.6) 0%,rgba(255,123,13,0.6) 100%), url('scene.jpeg');
+	background-blend-mode: soft-light;
+	background-size: 100% 100%;
+	min-height: 100%;
+	background-position: center center;
+}
+
+.container {
+	display: block;
+	align-items: center;
+	justify-content: center;
+	min-height: 100%;
+	background-position: center center;
+}
+
+.bird {
+	background-image: url(birds.svg);
+	background-size: auto 100%;
+	width: 88px;
+	height: 125px;
+	will-change: background-position;
+	
+	animation-name: fly;
+	animation-timing-function: steps(10);
+	animation-iteration-count: infinite;
+
+	animation-duration: 1s;
+	animation-delay: -0.5s;
+
+}
+
+.bird-container {
+	position: absolute;
+	top: 10%;
+	right: -3.5vw;
+	will-change: transform;
+	
+	animation-name: flyLeft;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	
+	animation-duration: 15s;
+	animation-delay: 0;
+	
+}
+
+@keyframes fly {
+	
+	100% {
+		background-position: -865px 0;
+	}
+	
+}
+
+@keyframes flyLeft {
+	
+	0% {
+		right: -10%;
+		transform: scale(0.3);
+	}
+	
+	10% {
+		right: 10%;
+		transform: translateY(-2vh) scale(0.4);
+	}
+	
+	20% {
+		right: 30%;
+		transform: translateY(0vh) scale(0.5);
+	}
+	
+	30% {
+		right: 50%;
+		transform: translateY(-4vh) scale(0.6);
+	}
+	
+	40% {
+		right: 70%;
+		transform: translateY(-2vh) scale(0.6);
+	}
+	
+	50% {
+		right: 90%;
+		transform: translateY(0vh) scale(0.6);
+	}
+	
+	60% {
+		right: 110%;
+		transform: translateY(0vh) scale(0.6);
+	}
+	
+	100% {
+		right: 110%;
+		opacity: 1;
+		transform: translateY(0vh) scale(0.6);
+	}
+	
+}
+
+
+

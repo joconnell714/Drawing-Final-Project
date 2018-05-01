@@ -9,5 +9,5 @@ document.getElementById('myAudio2').addEventListener('ended',repeat2,false);
 function repeat2(e) {
     setTimeout(function(){
         document.getElementById('myAudio').play();
-    }, 4500);
+    }, 5000);
 }
